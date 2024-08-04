@@ -1,0 +1,5 @@
+/Log
+/Lib
+
+*.sublime_session
+# Packages/User/openAI.sublime-settings

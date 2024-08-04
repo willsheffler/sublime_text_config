@@ -1,0 +1,66 @@
+[
+  {
+    "caption": "Preferences: TreeSitter Settings",
+    "command": "edit_settings",
+    "args": {
+      "base_file": "${packages}/TreeSitter/TreeSitter.sublime-settings",
+      "default": "{\n  $0\n}\n"
+    }
+  },
+  {
+    "caption": "TreeSitter: Install Language",
+    "command": "tree_sitter_install_language"
+  },
+  {
+    "caption": "TreeSitter: Remove Language",
+    "command": "tree_sitter_remove_language"
+  },
+  {
+    "caption": "TreeSitter: Update Language",
+    "command": "tree_sitter_update_language"
+  },
+  {
+    "caption": "TreeSitter: Select Ancestor",
+    "command": "tree_sitter_select_ancestor",
+  },
+  {
+    "caption": "TreeSitter: Select Sibling",
+    "command": "tree_sitter_select_sibling",
+  },
+  {
+    "caption": "TreeSitter: Select Cousins",
+    "command": "tree_sitter_select_cousins",
+  },
+  {
+    "caption": "TreeSitter: Select Descendant",
+    "command": "tree_sitter_select_descendant",
+  },
+  {
+    "caption": "TreeSitter: Select Symbols",
+    "command": "tree_sitter_select_symbols",
+  },
+  {
+    "caption": "TreeSitter: Goto Symbol",
+    "command": "tree_sitter_goto_symbol",
+  },
+  {
+    "caption": "TreeSitter: Query Symbol",
+    "command": "tree_sitter_query_symbol",
+  },
+  {
+    "caption": "TreeSitter: Print Tree",
+    "command": "tree_sitter_print_tree",
+  },
+  {
+    "caption": "TreeSitter: Show Node Under Selection",
+    "command": "tree_sitter_show_node_under_selection",
+  },
+  {
+    "caption": "TreeSitter: Toggle Show Node Under Selection",
+    "command": "tree_sitter_toggle_show_node_under_selection",
+  },
+  {
+    "caption": "TreeSitter: Reload Plugin",
+    "command": "tree_sitter_reload"
+  },
+]
